@@ -1,4 +1,5 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
+import Character from './components/Karakter';
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -10,7 +11,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1 className="Header">Karakterler</h1>
+        <Character/>
     </div>
   );
 }
